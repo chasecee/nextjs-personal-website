@@ -10,7 +10,7 @@ export const locate: DocumentLocationResolver = (params, context) => {
   if (params.type === 'settings') {
     return {
       message: 'This document is used on all pages',
-      tone: 'caution',
+      tone: 'positive',
     } satisfies DocumentLocationsState
   }
 
